@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.hov-act:hover{
+    transform: scale(1.1);
+}
+
+.hov-act:active{
+    transform: scale(0.9);
+}
+
+.border-eff{
+    border-bottom: 3px solid transparent;
+    transition: all .3s ease-in-out;
+}
+
+.border-eff:hover{
+    border-bottom: 3px solid blue;
+    cursor: pointer;
+}
+
+.border-eff:active{
+    transform: scale(0.8);
+}
